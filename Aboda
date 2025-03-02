@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Journalist News Website</title>
+  <!-- Bootstrap CSS -->
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoVlzL2Fb9e3prK2RrZl5m9g6B8Q4D5W0vP5nN7tZp6H/V/"
+    crossorigin="anonymous"
+  />
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+    .hero {
+      background-image: url("https://via.placeholder.com/1920x600");
+      background-size: cover;
+      background-position: center;
+      height: 600px;
+      position: relative;
+      color: white;
+    }
+    .hero-text {
+      position: absolute;
+      bottom: 20px;
+      left: 20px;
+      background: rgba(0, 0, 0, 0.5);
+      padding: 20px;
+      border-radius: 5px;
+    }
+    .article-image {
+      width: 100%;
+      height: auto;
+    }
+    .footer {
+      background: #f8f9fa;
+      padding: 20px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <a class="navbar-brand" href="#">Journalist News</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#articles">Articles</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <div class="hero">
+    <div class="hero-text">
+      <h1>Breaking News</h1>
+      <p>Latest updates from around the world</p>
+      <a href="#articles" class="btn btn-primary">Read More</a>
+    </div>
+  </div>
+
+  <!-- Articles Section -->
+  <div id="articles" class="container my-5">
+    <h2 class="mb-4">Latest Articles</h2>
+    <div class="row">
+      <!-- Article 1 -->
+      <div class="col-md-4">
+        <div class="card mb-4">
+          <img
+            src="https://via.placeholder.com/350x200"
+            class="card-img-top article-image"
+            alt="Article Image"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Article Title 1</h5>
+            <p class="card-text">
+              A short summary of the news article goes here. This is a preview of the full story.
+            </p>
+            <a href="#" class="btn btn-outline-primary">Read More</a>
+          </div>
+        </div>
+      </div>
+      <!-- Article 2 -->
+      <div class="col-md-4">
+        <div class="card mb-4">
+          <img
+            src="https://via.placeholder.com/350x200"
+            class="card-img-top article-image"
+            alt="Article Image"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Article Title 2</h5>
+            <p class="card-text">
+              A short summary of the news article goes here. This is a preview of the full story.
+            </p>
+            <a href="#" class="btn btn-outline-primary">Read More</a>
+          </div>
+        </div>
+      </div>
+      <!-- Article 3 -->
+      <div class="col-md-4">
+        <div class="card mb-4">
+          <img
+            src="https://via.placeholder.com/350x200"
+            class="card-img-top article-image"
+            alt="Article Image"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Article Title 3</h5>
+            <p class="card-text">
+              A short summary of the news article goes here. This is a preview of the full story.
+            </p>
+            <a href="#" class="btn btn-outline-primary">Read More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- About Section -->
+  <div id="about" class="container my-5">
+    <h2>About the Journalist</h2>
+    <p>
+      Welcome to my news website. I am a dedicated journalist passionate about bringing you the latest and most accurate news stories from around the world. Here, you will find in-depth coverage on topics ranging from politics to entertainment.
+    </p>
+  </div>
+
+  <!-- Contact Section -->
+  <div id="contact" class="container my-5">
+    <h2>Contact</h2>
+    <p>
+      If you have any questions or news tips, please feel free to reach out to me at
+      <a href="mailto:journalist@example.com">journalist@example.com</a>.
+    </p>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>&copy; 2025 Journalist News. All rights reserved.</p>
+  </footer>
+
+  <!-- Bootstrap JS Bundle -->
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+fX39N+2w1y5h2QVXQ4fEl5q3aJb/"
+    crossorigin="anonymous"
+  ></script>
+</body>
+</html>
